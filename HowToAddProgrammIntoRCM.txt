@@ -1,0 +1,6 @@
+Win+R << regedit
+HKEY_CLASSES_ROOT\Directory\Background\Shell
+
+shell - new - key - NameFolder(ImgPaste)
+ImgPaste - new - key - NameFolder exactly as "Command"
+Into Command files(Default) - Modify - into ValueData pathToProgramm
