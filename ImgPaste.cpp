@@ -33,5 +33,10 @@ int main() {
         image.Detach();
         DeleteObject(hBitImage);
     }
+    else { 
+        std::cout << "No data..."; 
+        std::cin.get();
+    }
+    
     return 0;
 }
